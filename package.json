@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch static/scss:static/css"
+  },
+  "keywords": [
+    "html",
+    "bootstap",
+    "css",
+    "scss"
+  ],
+  "author": "Shreeyanch Shrestha",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.38.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.0"
+  }
+}
